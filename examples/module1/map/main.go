@@ -13,6 +13,7 @@ func main() {
 	fmt.Println(myFuncMap)
 	f := myFuncMap["funcA"]
 	fmt.Println(f())
+	// 正例 获取value 判断是否存在，存在打印，避免空指针
 	value, exists := myMap["a"]
 	if exists {
 		println(value)

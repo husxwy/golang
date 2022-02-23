@@ -10,6 +10,7 @@ func main() {
 	}
 	fullString := "hello world"
 	fmt.Println(fullString)
+	// i index 数组下标 c char 字符
 	for i, c := range fullString {
 		fmt.Println(i, string(c))
 	}

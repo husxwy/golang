@@ -4,8 +4,12 @@ import (
 	"fmt"
 )
 
+// Make 和 New
 func main() {
+	// New 返回指针地址
 	mySlice1 := new([]int)
+	// Make 返回第一个元素，可预设内存空间，避免未来的内存拷贝
+	// type size
 	mySlice2 := make([]int, 0)
 	mySlice3 := make([]int, 10)
 	mySlice4 := make([]int, 10, 20)
